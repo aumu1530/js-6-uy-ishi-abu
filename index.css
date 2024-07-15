@@ -1,0 +1,160 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: Arial, Helvetica, sans-serif;
+   text-decoration: none;
+}
+body{
+   background-color: rgb(151, 197, 235);
+}
+
+.container{
+  width: 95%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.n-main{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.n-center{
+  display: flex;
+  gap: 30px;
+  a{
+     text-decoration: none;
+     color: gainsboro;
+     font-size: 20px;
+  }
+}
+.n-left{
+  width: 50px;
+}
+
+.n-right{
+   font-size: 30px;
+   display: flex;
+   gap: 10px;
+}
+
+.mob svg{
+  color: white;
+
+}
+.mob{
+  display: none;
+}
+
+@media (max-width:800px) {
+  .mob{
+     display: block;
+  }
+  .n-center{
+     display: none;
+  }
+ 
+  
+}
+.active{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  width: 100%;
+  height: 100vh;
+  background-color: #111;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  a{
+     font-size: 22px;
+  }
+}
+
+.mob-active{
+  position: relative;
+  z-index: 100;
+}
+
+.hidden{
+  overflow-y: hidden;
+}
+
+
+
+.logo img{
+   width: 200px;
+}
+.models{
+   display: flex;
+   gap: 30px;
+   a{
+       color: white;
+       font-size: 16px;
+       
+   }
+}
+
+.btns{
+   display: flex;
+   gap: 30px;
+   button{
+       border: none;
+       font-size: 16px;
+       background: none;
+       font-weight: 600;
+       cursor: pointer;
+   }
+}
+
+
+
+
+
+
+ header{
+    width: 100%;
+    height: 100vh;
+   background: url(https://teslaclonebyboburdev.netlify.app/_next/static/media/model-3.f8f2fef2.jpg) 
+   no-repeat center center/cover;
+   text-align: center;
+   padding-top: 150px;
+
+ }
+
+ section{
+    width: 100%;
+    height: 100vh;
+   background: url(https://teslaclonebyboburdev.netlify.app/_next/static/media/model-y.bc0a9dc8.jpg) 
+   no-repeat center center/cover;
+   text-align: center;
+   padding-top: 150px;
+
+ }
+
+ aside{
+    width: 100%;
+    height: 100vh;
+   background: url(https://teslaclonebyboburdev.netlify.app/_next/static/media/model-s.11bcf77a.jpg) 
+   no-repeat center center/cover;
+   text-align: center;
+   padding-top: 150px;
+
+ }
+
+
+
+ footer{
+    width: 100%;
+    height: 100vh;
+   background: url(https://teslaclonebyboburdev.netlify.app/_next/static/media/model-x.ded965f9.jpg) 
+   no-repeat center center/cover;
+   text-align: center;
+   padding-top: 150px;
+ 
+ }
